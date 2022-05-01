@@ -31,7 +31,7 @@ df_target = df_target.rename(columns={0:'Calories',1:'Fat',2:'Protein',3:'Carbs'
 st.write(df_target)
 
 st.subheader('Adherence to target')
-st.write("""Upload data to track daily adherence to suggested daily targets. The goal is not to stay below targets for any given quantity, but to be as close as possible
+st.write("""Upload data to track daily adherence to suggested daily targets. The goal is not to stay below target for any given quantity, but to be as close as possible
 to each. Update your data as formatted in the template (provide link to Github). The Meal and Food
 columns are for your personal use, and do not affect aggregation into daily data. Keep data
 as CSV; Streamlit is currently not processing .xlsx files.""")
