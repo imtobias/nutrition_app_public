@@ -5,6 +5,8 @@ import streamlit as st
 st.header('Track calories and macros')
 st.write("""The calculator below provides daily targets for calories and macros (grams of protein, fat, carbohydrates) to achieve your target weekly weight loss, given
 your baseline calories and body weight. To find your baseline daily calorie amount, follow the procedure described on this [fat loss page](https://share.streamlit.io/imtobias/fat_loss/main/fat_loss.py).
+As described on that page, weekly weight loss rates of 0.5% to 1% of bodyweight are sustainable for 8-12 weeks. Exceeding these rates or duration will likely produce excessive
+stress and reduction in everyday function.
 
 This [Wolfram app](https://www.wolframalpha.com/widgets/gallery/view.jsp?id=a9eaa1e9113c865b755f4c9aa0675d3c) identifies your food's calories and macros: Enter
 something like \"1/2 cup rice + 1 lb chicken breast boneless skinless\" to get the desired information.""")
