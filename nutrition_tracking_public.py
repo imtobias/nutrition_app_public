@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 st.header('Track calories and macros')
-st.write("""The calculator below provides daily targets for calories and macros (grams of protein, fat, carb) to achieve your target weekly weight loss, given
+st.write("""The calculator below provides daily targets for calories and macros (grams of protein, fat, carbohydrates) to achieve your target weekly weight loss, given
 your baseline calories and body weight. To find your baseline daily calorie amount, follow the procedure described on this [fat loss page](https://share.streamlit.io/imtobias/fat_loss/main/fat_loss.py).
 
 This [Wolfram app](https://www.wolframalpha.com/widgets/gallery/view.jsp?id=a9eaa1e9113c865b755f4c9aa0675d3c) identifies your food's calories and macros: Enter
