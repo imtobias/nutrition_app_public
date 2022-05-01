@@ -32,7 +32,7 @@ st.write(df_target)
 
 st.subheader('Adherence to target')
 st.write("""Upload data to track daily adherence to suggested daily targets. The goal is not to stay below target for any given quantity, but to be as close as possible
-to each. Update your data as formatted in the template (provide link to Github). The Meal and Food
+to each. Update your data as formatted in the [template](https://github.com/imtobias/nutrition_app_public/blob/main/nutrition_template.csv). The Meal and Food
 columns are for your personal use, and do not affect aggregation into daily data. Keep data
 as CSV; Streamlit is currently not processing .xlsx files.""")
 user_data = st.file_uploader('Upload food data')
